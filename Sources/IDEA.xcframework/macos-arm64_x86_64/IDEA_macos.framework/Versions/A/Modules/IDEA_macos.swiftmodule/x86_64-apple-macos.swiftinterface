@@ -5,3 +5,9 @@ import CryptoSwift
 @_exported import IDEA_macos
 import Swift
 import _Concurrency
+public class IDEA {
+  public init(key: Swift.String, mode: CryptoSwift.BlockMode)
+  public func encrypt(_ bytes: Swift.ArraySlice<Swift.UInt8>) throws -> Swift.Array<Swift.UInt8>
+  public func decrypt(_ bytes: Swift.ArraySlice<Swift.UInt8>) throws -> Swift.Array<Swift.UInt8>
+  @objc deinit
+}
