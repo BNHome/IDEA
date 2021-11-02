@@ -1,0 +1,4 @@
+framework module IDEA_ios {
+  header "IDEA_ios-Swift.h"
+  requires objc
+}

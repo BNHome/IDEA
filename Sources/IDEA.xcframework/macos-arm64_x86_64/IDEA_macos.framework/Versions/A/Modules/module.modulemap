@@ -1,0 +1,11 @@
+framework module IDEA_macos {
+  umbrella header "IDEA_macos.h"
+
+  export *
+  module * { export * }
+}
+
+module IDEA_macos.Swift {
+    header "IDEA_macos-Swift.h"
+    requires objc
+}
