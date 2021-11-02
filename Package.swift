@@ -4,12 +4,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "IDEA",
+    name: "IDEAPACK",
     platforms: [
         .macOS(.v12), .iOS(.v15)
     ],
     products: [
-        .library(name: "IDEA", targets: ["IDEA"])
+        .library(name: "IDEAPACK", targets: ["IDEA"])
     ],
     dependencies: [],
     targets: [
